@@ -5,7 +5,7 @@ RUN \
 	apt-get install -y software-properties-common && \
 	add-apt-repository ppa:vbernat/haproxy-1.5 && \
 	apt-get update && \
-	apt-get install -y build-essential ruby-dev haproxy jq && \
+	apt-get install -y build-essential zlib1g-dev ruby-dev haproxy jq && \
 	gem install synapse && \
 	sed -i 's/^ENABLED=.*/ENABLED=1/' /etc/default/haproxy
 
