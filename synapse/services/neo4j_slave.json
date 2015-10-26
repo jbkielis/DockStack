@@ -9,7 +9,7 @@
       "timeout server 50000ms"
     ],
     "backend": [
-      "option httpchk GET /db/manage/server/ha/slave HTTP/1.0\r\nAuthorization:Basic bmVvNGo6QnVnMDFHcmFwaA"
+      "option httpchk GET /db/manage/server/ha/slave HTTP/1.0\\r\\nAuthorization:\\ Basic\\ bmVvNGo6QnVnMDFHcmFwaA"
     ]
   }
 }
